@@ -10,8 +10,4 @@ import * as admin from 'firebase-admin';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule implements NestModule {
- configure(){
-   
- } 
-}
+export class AppModule {}
