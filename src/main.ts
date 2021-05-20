@@ -42,17 +42,7 @@ async function bootstrap() {
   }
  
 
-  const uid = 'some-uid'
-  admin
-    .auth()
-    .createCustomToken(uid)
-    .then((customToken) => {
-      // Send token back to client
-      console.log('customToken: ', customToken);
-    })
-    .catch((err) => {
-      console.log('Error creating custom token', err)
-    })
+  
 
 
   // passport-kakao ... test
