@@ -1,8 +1,5 @@
 import { Controller, Get, Req, Request, UseGuards } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
-import passport from 'passport';
-import { Strategy as KakaoStrategy } from 'passport-kakao'
-
 
 @Controller('auth')
 export class AuthController {
